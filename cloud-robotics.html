@@ -3,7 +3,7 @@
     <head> 
         <meta charset="utf-8"> 
         <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
-        <title>Cloud-Robotics-Challenge</title>         
+        <title>Cloud-Robotics</title>
         <meta content="" name="description"> 
         <meta content="" name="keywords"> 
         <!-- Favicons -->         
@@ -28,12 +28,12 @@
         * License: https://bootstrapmade.com/license/
         ======================================================== -->         
     </head>     
-    <body> 
+    <body>
         <!-- ======= Header ======= -->         
-        <header id="header" class="fixed-top d-flex align-items-center "> 
+        <header id="header" class="fixed-top d-flex align-items-center"> 
             <div class="container d-flex justify-content-between align-items-center"> 
                 <div class="logo"> 
-                    <h1 class="text-light"><a href="index.html"><span>Challenge</span></a></h1> 
+                    <h1 class="text-light"><a href="index.html"><span>Cloud-Robotics Dataset</span></a></h1> 
                     <!-- Uncomment below if you prefer to use an image logo -->                     
                     <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->                     
                 </div>                 
@@ -46,9 +46,9 @@
                                     <a href="cloud-robotics.html">Cloud-Robotics Dataset</a>
                                 </li>
                             </ul>                             
-                        </li>                       
+                        </li>                            
                         <li class="dropdown">
-                            <a href="documentation-ss.html"><span>Documentation</span> <i class="bi bi-chevron-down"></i></a>
+                            <a href=""><span>Documentation</span> <i class="bi bi-chevron-down"></i></a>
                             <ul> 
                                 <li>
                                     <a href="documentation-ss.html">Cloud-Robotics Dataset</a>
@@ -70,69 +70,76 @@
                 <!-- .navbar -->                 
             </div>             
         </header>
-        <!-- End Header -->         
+        <!-- End Header -->    
+         
+        
+
+
         <main id="main"> 
-            <!-- ======= Our Services Section ======= -->             
-            <!-- End Our Services Section -->             
             <!-- ======= Services Section ======= -->             
-            <section class="features"> 
-                <div class="container">
-                    <div class="row aos-init aos-animate" data-aos="fade-up"> 
-                    </div>                     
-                    <span class="anchor" id="challenge"></span>
-                    <h3><b>Challenge From Huawei</b></h3>
-                    <p> We are looking for talents to solve the challenge of lifelong learning together! For professors in universities, we may have collaboration projects funded by Huawei to work on this problem. For students who are interested in this topic, welcome to join us as interns or employees. 
-                    </p>
-
-                    <h4><b>Background</b></h4>
-                    <p> According to a market report, the global edge intelligence market is expected to reach US$3.093 billion by 2023, with a compound annual growth rate (CAGR) of 28.8%. Edge intelligence has potential applications in various industries, such as transportation, industry, energy, aerospace, media, and farming. However, one of the main challenges for monetizing its business value is to achieve large-scale replication.
-                        The current obstacles to replicating edge intelligence include small and heterogeneous data sets on edges (see figures below), as well as the users’ requirements for data security and offline autonomy of edge intelligence services.
-                    </p>
-
-                    <h4><b>Technical Challenges</b></h4>
-                    <p><li> Catastrophic forgetting: Single-task methods, such as isolated learning, single-task incremental learning, and single-task federated learning, build a monolithic model in the cloud for inference on edges. However, these methods suffer from catastrophic forgetting [2], which means that the historical model is overwritten by the updated model and loses its previous knowledge. Moreover, it is challenging to use different models to solve different problems with these methods.
-                    </li>
-                    <li> AI engineering and automation: Multi-task methods, such as multi-task learning, multi-task incremental learning, and multi-task federated learning, manually define multiple models to adapt to different edges. However, these methods require considerable human and computational resources for building and maintaining such models. AI engineering and automation are still far from mature.
-                    </li>
-                    <li> Identification and processing of unknown tasks: Edge environments are complex and diverse, and the closed-world assumption —that all tasks in the inference stage are perfectly learned in the training stage —does not hold in edge scenarios. Therefore, it is necessary to assume that unknown tasks may exist during the running of edge models and to verify and update them in a timely manner to ensure the robustness and reliability of related services.
-                    </li>
-                    </p>
-
-                    <h4><b>Research Topics and Benchmarks</b></h4>
-                    <p>
-                    We conducted research on the core technologies and system optimization of edge-cloud collaborative lifelong learning based on the Sedna and Ianvs frameworks, achieving multi-model full lifecycle management.
-                    System Goals and Core Technologies:
-                    <li> Maximize the unknown task generalization metric(FWT), and the anti-forgetting metric(BWT) must reach 95%
-                    </li>
-                    <li> The development time of new scenarios must be less than two weeks. Data cannot be transferred out of the edges, and offline autonomy of services must be implemented.
-                    </li>
-                    <li> Models must be decoupled so that models are pluggable in complex and changeable edge scenarios.
-                    </li>
-                    <li> Partition latent tasks in a given dataset, and match highest-similarity tasks for inference samples. The task matching accuracy must reach 95%.
-                    </li>
-                    <li> Unknown and known tasks are distinguished in inference. The identification accuracy of unknown tasks must reach 99%.
-                    </li>
-                    <li> Optimize models in the knowledge base with the help of data and models from different resources, such as mechanism models, task (transfer) relation discovery, simulation data, and large-scale pre-trained models. The anti-forgetting (BWT) and generalization (FWT) metrics must reach 95%.
-                    </li>
-                    </p>
-
-                    <p>We offer Cloud-Robotics, a real-world lifelong learning dataset for semantic segmentation in robotics. Please contact Dr. Zheng Zimu(zimu.zheng@huawei.com) for more details. 
-                    </p>
-                    <div class="col-md-7 order-2 order-md-1 pt-5"> 
-                    </div>
-                </div>                 
-            </section>
             <!-- End Services Section -->             
             <!-- ======= Why Us Section ======= -->             
             <!-- End Why Us Section -->             
-            <!-- ======= Service Details Section ======= -->             
-            <!-- End Service Details Section -->             
-            <!-- ======= Pricing Section ======= -->             
-            <!-- End Pricing Section -->             
+            <!-- ======= Features Section ======= -->             
+            <section class="features"> 
+                <div class="container">
+                    <div class="row aos-init aos-animate" data-aos="fade-up"></div>                     
+                    <h3><b>Overview</b></h3>
+                    <p>
+                        In the past few years, robotic technology has developed rapidly, and the practical application of intelligent robots such as the Cloud Shadow X20 has become increasingly widespread. For robotic applications, model training requires a large amount of data, and the ability of models to learn throughout their lifetime has become increasingly important due to the complex and ever-changing real environment. However, currently there are relatively few open-source datasets in the field of robotics, making it difficult for developers in the robotics field to obtain high-quality data for model training.
+                    </p>
+                    <p> 
+                        Therefore, we have jointly released the <b>Cloud-Robotics</b> dataset on KubeEdge-Ianvs to provide better support for robot learning. The Cloud-Robotics dataset not only provides high-quality data support for robotic tasks but also offers more possibilities for testing the lifelong learning ability of robot application models. We believe that this dataset will become one of the important tools in the field of robot learning and application development.
+                    </p>
+                    <p>
+                        Cloud-Robotics is a multimodal robot dataset collected by an intelligent robotic dog in the Huawei Shenzhen Industrial Park. Currently, the outdoor image semantic segmentation dataset of Cloud-Robotics has been open-sourced. In the future, we will open-source other modalities of Cloud-Robotics datasets, including but not limited to point clouds and IMU, etc.
+                    </p>
+                    <img src="assets/img/3.png" alt="图片描述" width="1400" height="200">
+
+
+                    <h3><b>Examples</b></h3>
+                    <p class="fst-italic">
+                    Some examples in Cloud-Robotics dataset
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                          <img src="assets/img/example-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                          <img src="assets/img/example-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                          <img src="assets/img/example-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                            <img src="assets/img/example-4.png" class="img-fluid" alt="">
+                          </div>
+                    <h3><b>Annoucement</b></h3>
+                          <p> 
+                          - The Cloud-Robotics official website has been online! (2023/06/30)<br>
+                          - The Cloud-Robotics Semantic Segmentation dataset has been released! (2023/06/30)<br>
+                          </p>
+                    <div class="col-md-7 order-2 order-md-1 pt-5"> 
+                    </div>
+                    <h3><b>Citation</b></h3>
+<pre style="text-align: left; white-space: pre; display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"> 
+    @online{Cloud-Robotics,
+        title={Cloud Robotics},
+        author={Hu, Shijing and Mao, Sitong and Luo, Siqi and Huang, Zhiwei and Zheng, Zimu and Pu, Jie and Wang, Feng},
+        url={https://kubeedge-ianvs.github.io/}
+        year={2023}
+    }                            
+</pre>
+</div>
+    <!-- <h3><b>Citation</b></h3>
+    <pre style="text-align: left; white-space: pre; display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"> TBD </pre> -->
+</div> 
+            </section>
+            <!-- End Features Section -->             
         </main>
         <!-- End #main -->         
         <!-- ======= Footer ======= -->         
-        <footer id="footer" data-aos-easing="ease-in-out" data-aos-duration="500"> 
+        <footer id="footer" data-aos-easing="ease-in-out" data-aos-duration="500" class="aos-init"> 
             <div class="container"> 
                 <div class="copyright"> 
                     &copy; Copyright 
@@ -160,6 +167,6 @@
         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>         
         <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>         
         <!-- Template Main JS File -->         
-        <script src="assets/js/main.js"></script>         
+        <script src="assets/js/main.js"></script>
     </body>     
 </html>
